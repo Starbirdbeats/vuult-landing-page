@@ -71,17 +71,6 @@
     --chart-5: 340 75% 55%;
   }
   
-  .text-heading {
-    font-family: var(--font-alex-brush);
-  }
-  
-  .text-subheading {
-    font-family: var(--font-cormorant);
-  }
-  
-  .text-body {
-    font-family: var(--font-antic-slab);
-  }
 }
 
 @layer base {

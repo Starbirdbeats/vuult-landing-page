@@ -54,8 +54,8 @@ export function ProcessSteps() {
       title: 'Receive and Approve',
       description: 'Review and perfect your custom piece',
       icon: (
-        <div className="w-14 h-14 bg-green-300 rounded-full flex items-center justify-center">
-          <Check className="w-6 text-black" strokeWidth={3} />
+        <div className="w-14 h-14 bg-gray-900 rounded-full flex items-center justify-center">
+          <Check className="w-6 text-white" strokeWidth={3} />
         </div>
       ),
       content: null,
