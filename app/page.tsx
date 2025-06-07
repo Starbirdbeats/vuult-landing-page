@@ -2,7 +2,7 @@
 
 import Image from 'next/image';
 import { Button } from '@/components/ui/button';
-import { anticSlab, oswald, cormorant } from '@/lib/fonts';
+import { anticSlab, oswald, cormorant, cormorantUpright } from '@/lib/fonts';
 import { FaInstagram } from 'react-icons/fa';
 import { ProcessSteps } from '@/components/ui/process-steps';
 import * as motion from 'motion/react-client';
@@ -44,7 +44,9 @@ export default function Home() {
         <div className="w-full px-4 relative z-10">
           <div className="max-w-6xl mx-auto text-center space-y-12">
             <div className="space-y-8">
-              <h2 className={`${oswald.className} text-8xl font-light mb-16`}>
+              <h2
+                className={`${cormorantUpright.className} text-8xl font-light mb-16`}
+              >
                 About Us
               </h2>
               <p className={`${anticSlab.className} text-2xl italic mb-12`}>
@@ -82,7 +84,9 @@ export default function Home() {
               variant="outline"
               className={`text-sm border-2 border-gray-700 hover:border-white hover:bg-black hover:text-white transition-all duration-300 px-8 py-4 rounded-full`}
             >
-              <Link href="https://www.instagram.com/vuultjewellery?igsh=a2U3OHFuZXM3Ymxk&utm_source=qr">OUR PORTFOLIO</Link>
+              <Link href="https://www.instagram.com/vuultjewellery?igsh=a2U3OHFuZXM3Ymxk&utm_source=qr">
+                OUR PORTFOLIO
+              </Link>
             </Button>
           </div>
         </div>
@@ -92,7 +96,11 @@ export default function Home() {
       <section className="bg-black text-white py-24">
         <div className="container mx-auto px-4">
           <div className="max-w-6xl mx-auto">
-            <h2 className={`${oswald.className} text-8xl text-center mb-16`}>The Process</h2>
+            <h2
+              className={`${cormorantUpright.className} text-8xl text-center mb-16`}
+            >
+              The Process
+            </h2>
             <ProcessSteps />
           </div>
         </div>
@@ -103,7 +111,10 @@ export default function Home() {
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-2xl mb-8">FOLLOW US</h2>
           <div className="flex justify-center gap-8">
-            <a href="https://www.instagram.com/vuultjewellery?igsh=a2U3OHFuZXM3Ymxk&utm_source=qr" className="hover:opacity-70 transition-opacity">
+            <a
+              href="https://www.instagram.com/vuultjewellery?igsh=a2U3OHFuZXM3Ymxk&utm_source=qr"
+              className="hover:opacity-70 transition-opacity"
+            >
               <FaInstagram size={32} />
             </a>
           </div>
